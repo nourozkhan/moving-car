@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moving Car</title>
+    <link rel="stylesheet icon" href="scorpio1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery2.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#say").click(function(){
+                $("#car").animate({'marginTop':"-=250px"},3000);
+                $("#car").animate({"nb":""},1000);
+                $("p").fadeIn(3000);
+                $("#car").animate({'marginTop':"+=250px"},2000);
+                $("p").fadeOut(1000);
+            });
+        });
+        $(document).ready(function(){
+            $("#home").click(function(){
+                $("#car").animate({'marginLeft':"-=550px"},3000);
+                $("#car").animate({"nb":""},1000);
+                $("p").fadeIn(3000);
+                $("#car").animate({'marginLeft':"+=550px"},2000);
+                $("p").fadeOut(1000);
+
+            });
+        });
+        $(document).ready(function(){
+            $("#xavia").click(function(){
+                $("#car").animate({'marginTop':"+=250px"},3000);
+                $("#car").animate({"nb":""},1000);
+                $("p").fadeIn(3000);
+                $("#car").animate({'marginTop':"-=250px"},2000);
+                $("p").fadeOut(1000);
+
+            });
+        });
+        $(document).ready(function(){
+            $("#pana").click(function(){
+                $("#car").animate({'marginLeft':"+=600px"},3000);
+                $("#car").animate({"nb":""},1000);
+                $("p").fadeIn(3000);
+                $("#car").animate({'marginLeft':"-=600px"},2000);
+                $("p").fadeOut(1000);
+
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="img1.png" alt="saylani" class="building" id="say"><h5 id="a">saylani</h5>
+    <img src="car.jpg" alt="home" class="building" id="home"><h5 id="b">xavia</h5>
+    <img src="img2.png" alt="car" id="car"><p>conguratz you reached</p><h4>click on the building where you want to go.</h4>
+    <img src="img3.png" alt="panacloud" class="building" id="pana"><h5 id="c">panacloud</h5>
+    <img src="img4.png" alt="Xavia" class="building" id="xavia"><h5 id="d">Home</h5>
+</body>
+</html>

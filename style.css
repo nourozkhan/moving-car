@@ -1,0 +1,83 @@
+ .building
+{
+    height:80px;
+    width:80px;
+    background:green;
+    margin: 20px;
+    padding: 5px;
+}
+body
+{
+        background: cadetblue;
+    color: darkblue;
+}
+#say
+{
+    position: fixed;
+    top: 10px;
+    left: 600px;
+}
+#a
+{
+   position: fixed;
+    top: 100px;
+    left: 650px; 
+}
+#home
+{
+    position: fixed;
+    top: 250px;
+    left: 50px;
+}
+#b
+{
+    position: fixed;
+    top: 350px;
+    left: 100px;
+}
+#pana
+{
+    position: fixed;
+    top: 250px;
+    right: 50px;
+}
+#c
+{
+    position: fixed;
+    top: 350px;
+    right: 80px;
+}
+#xavia
+{
+    position: fixed;
+    top: 500px;
+    left: 600px;
+}
+#d
+{
+    position: fixed;
+    top: 480px;
+    left: 650px;
+}
+#car
+{
+    background: darkblue;
+    height: 80px;
+    width: 80px;
+    margin: 250px 0px 0px 600px;
+    padding: 5px;
+    border-radius: 100%;
+    z-index: 10;
+    position: absolute;
+}
+h4{
+position: fixed;
+    top: 50px;
+    left: 200px;
+}
+p{
+    position: fixed;
+    top: 50px;
+    right: 300px;
+    display: none;
+}
